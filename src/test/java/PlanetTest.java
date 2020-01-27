@@ -1,7 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals
+import static org.junit.Assert.assertEquals;
 
 public class PlanetTest {
     private Planet mars;
@@ -22,7 +22,7 @@ public class PlanetTest {
     }
 
     @Test
-    public String explodes(){
-        assertEquals("Boom! mars has exploded", mars.explode());
+    public void explodes(){
+        assertEquals("Boom! mars has exploded!", mars.explode());
     }
 }
